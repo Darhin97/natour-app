@@ -5,7 +5,6 @@ const Tour = require('../models/tourModel');
 const APIFeatures = require('../utils/apiFeatures');
 const AppError = require('../utils/appError');
 const factory = require('./handlerFactory');
-
 const catchAsync = require('../utils/catchAsync');
 
 //stores image in memory as buffer, for easy access/ usage in sharp
